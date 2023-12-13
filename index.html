@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zain ul abdin (116841)</title>
+</head>
+<body>
+    <script>
+document.write("<h1>") ;
+var num = 36.849
+document.write("Q:1 </br> num ==>"+" "+num +"</br>"+ "num round ==>" + " " +Math.round(num) +"</br>num Floor ==>" + Math.floor(num)+"</br>num ciel ==>" + Math.ceil(num))
+document.write("</br>Q:2 </br> num ==>"+" "+num +"</br>"+ "num round  off==>" + " " + num.toFixed() +"</br>num Floor ==>" + Math.floor(num)+"</br>num ciel ==>" + Math.ceil(num))
+var num1 = -3
+document.write("</br>Q:3 </br>num1 ==>"+" "+ num1 +"</br>" + "Absolute value of num1 ===>" + " " + Math.abs(num1))
+var dic = Math.random();
+document.write("</br>Q:4 </br> dic ==>"+ " " + Math.round(dic)) ;
+let randome = Math.random()
+let random = Math.round(randome + 1)
+if (random === 1){
+    document.write("</br>Q:5</br> Random num 1 ===>  Heads </br>" )
+}else if (random === 2){
+    document.write("</br>Q:5</br> Random num 2 ===>  Tails </br>" )
+}
+var ran = Math.random( ) ;
+var round = Math.round(ran * 100) ;
+document.write("</br>Q:5</br> round number 1 to 100" + " ==> " + " "+ round )
+var weight =prompt("Enter Your weight") ;
+document.write("</br>Q:6</br>"+ "your weight is : " + " "+ weight.split(String) + " " + "Kilogram")
+var hide = 6;
+      var guess = prompt("Q:7\n Guess The Hide Number in 1 To 10:");
+      if (guess == hide) {
+        alert("Bingo! Correct Answer");
+      } else if (guess > 5) {
+        alert("Close enough to the correct answer");
+      } else alert("Try Again!");
+
+
+    </script>
+</body>
+</html>
